@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:dm="clr-namespace:CC_Food.Pages.DeliveryMen"
+            x:Class="CC_Food.Pages.DeliveryMen.DeliveryManPage">
+<!--
+    <dm:DeliveryMenListPage></dm:DeliveryMenListPage>
+    <dm:NewDeliveryManPage></dm:NewDeliveryManPage>
+-->
+
+    <TabbedPage.Children>
+        <dm:DeliveryMenListPage Title="Listagem" Icon="icone_list.png" x:Name="listagem"/>
+        <dm:NewDeliveryManPage Title="Inserir Novo" Icon="icone_new.png" x:Name="inserir"/>
+    </TabbedPage.Children>
+
+</TabbedPage>
