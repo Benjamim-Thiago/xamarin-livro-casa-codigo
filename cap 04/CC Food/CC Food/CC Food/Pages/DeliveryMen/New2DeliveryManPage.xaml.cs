@@ -12,10 +12,10 @@ using Xamarin.Forms.Xaml;
 namespace CC_Food.Pages.DeliveryMen
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class NewDeliveryManPage : ContentPage
+    public partial class New2DeliveryManPage : ContentPage
     {
         private DeliveryManDAL deliveryMen = DeliveryManDAL.GetInstance();
-        public NewDeliveryManPage()
+        public New2DeliveryManPage()
         {
             InitializeComponent();
             PrepareNewDeliveryMan();
