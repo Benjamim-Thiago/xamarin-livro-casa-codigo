@@ -18,7 +18,7 @@ namespace CC_Food.dao
             DeliveryMen.Add(new DeliveryMan() { id = 3, name = "Fulano", phoneNumber = "(86) 98135-2277" });
             DeliveryMen.Add(new DeliveryMan() { id = 4, name = "Beltrano", phoneNumber = "(86) 98835-2277" });
             DeliveryMen.Add(new DeliveryMan() { id = 5, name = "Mario", phoneNumber = "(86) 98122-2277" });
-            DeliveryMen.Add(new DeliveryMan() { id = 6, name = "luide", phoneNumber = "(86) 98124-2477" });
+            DeliveryMen.Add(new DeliveryMan() { id = 6, name = "Luide", phoneNumber = "(86) 98124-2477" });
             DeliveryMen.Add(new DeliveryMan() { id = 7, name = "Kenpachi", phoneNumber = "(86) 98222-2210" });
             DeliveryMen.Add(new DeliveryMan() { id = 8, name = "Godines", phoneNumber = "(86) 98222-1110" });
             DeliveryMen.Add(new DeliveryMan() { id = 9, name = "Lameque", phoneNumber = "(86) 98222-0000" });
