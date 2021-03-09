@@ -9,7 +9,7 @@
 
     <TabbedPage.Children>
         <dm:DeliveryMenListPage Title="Listagem" Icon="icone_list.png" x:Name="listagem"/>
-        <dm:New2DeliveryManPage  Title="Inserir Novo" Icon="icone_new.png" x:Name="inserir"/>
+        <dm:NewDeliveryManPage  Title="Inserir Novo" Icon="icone_new.png" x:Name="inserir"/>
     </TabbedPage.Children>
 
 </TabbedPage>

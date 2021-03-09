@@ -17,6 +17,7 @@ namespace CC_Food.Pages.DeliveryMen
         public DeliveryMenListPage()
         {
             InitializeComponent();
+
             lvDeliveryMan.ItemsSource = deliveryManDAL.GetAll();
         }
     }
