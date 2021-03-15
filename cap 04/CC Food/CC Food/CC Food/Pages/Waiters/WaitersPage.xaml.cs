@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace CC_Food.Pages.Waiters
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class WaitersPage : ContentPage
+    public partial class WaitersPage : TabbedPage
     {
         public WaitersPage()
         {

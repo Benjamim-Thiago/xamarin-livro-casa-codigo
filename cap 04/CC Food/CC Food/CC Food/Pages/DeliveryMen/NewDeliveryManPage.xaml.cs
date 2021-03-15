@@ -24,6 +24,7 @@ namespace CC_Food.Pages.DeliveryMen
         {
             var novoId = deliveryMen.GetAll().Max(x => x.id)
             + 1;
+
             id.Text = novoId.ToString().Trim();
             name.Text = string.Empty;
             phoneNumber.Text = string.Empty;
